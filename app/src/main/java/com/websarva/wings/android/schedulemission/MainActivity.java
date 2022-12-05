@@ -1,6 +1,6 @@
 package com.websarva.wings.android.schedulemission;
 
-//新規書き込み
+//新規書き込みした
 
 
 import android.os.Bundle;
