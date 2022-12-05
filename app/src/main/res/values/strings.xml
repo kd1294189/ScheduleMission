@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">スケジュール　ミッション</string>
+    <string name="title">タイトル</string>
+    <string name="contents">詳細</string>
+    <string name="reg">登録</string>
+    <string name="del">削除</string>
+    <string name="cancel">キャンセル</string>
+    <string name="in">入力</string>
+
+    <string name="sche1">スケジュール名</string>
+    <string name="sche2">スケジュール詳細</string>
+    <string name="sche3">予定日時</string>
+    <string name="sche4">残り時間</string>
+
+    <string name="sche1_in">スケジュール名を入力</string>
+    <string name="sche2_in">詳細を入力</string>
+    <string name="sche3_in">日付を入力</string>
+    <string name="sche4_in">時間を入力</string>
+    <string name="sche5_in"></string>
+
+
+
+</resources>
