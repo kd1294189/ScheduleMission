@@ -1,6 +1,6 @@
 package com.websarva.wings.android.schedulemission;
 
-//新規書き込みした
+//新規書き込み1した
 
 
 import android.os.Bundle;
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 //データを指定の型に入れる
-                id = intent2.getIntExtra(DBEntry._ID,0);
+                //id = intent2.getIntExtra(DBEntry._ID,0);
                     String title = intent2.getStringExtra(DBEntry.COLUMN_NAME_TITLE);
                     String contents = intent2.getStringExtra(DBEntry.COLUMN_NAME_CONTENTS);
                     String date = intent2.getStringExtra(DBEntry.COLUMN_NAME_DATE);
