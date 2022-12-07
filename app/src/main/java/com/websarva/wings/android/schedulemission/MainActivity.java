@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView text_date;
     private TextView text_date2;
-    private TextView text_date3;
+    //private TextView text_date3;
     private TextView text_date4;
 
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         //定義
         text_date  = findViewById(R.id.title);
             text_date2 = findViewById(R.id.text);
-            text_date3 = findViewById(R.id.date);
+            //text_date3 = findViewById(R.id.date);
             text_date4 = findViewById(R.id.time);
 
 
@@ -106,13 +106,13 @@ public class MainActivity extends AppCompatActivity {
                     String title = intent2.getStringExtra(DBEntry.COLUMN_NAME_TITLE);
                     String contents = intent2.getStringExtra(DBEntry.COLUMN_NAME_CONTENTS);
                     String date = intent2.getStringExtra(DBEntry.COLUMN_NAME_DATE);
-                    String time = intent2.getStringExtra(DBEntry.COLUMN_NAME_TIME);
+                    //String time = intent2.getStringExtra(DBEntry.COLUMN_NAME_TIME);
 
 
                 //表示
                 text_date.setText(title);
                     text_date2.setText(contents);
-                    text_date3.setText( date + " " + time );
+                    //text_date3.setText( date + " " + time );
 
 
                 //時間 抽出
